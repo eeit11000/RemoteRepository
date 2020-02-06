@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 import ch01.model.MemberBean;
 import ch01.model.MemberService;
 import ch01.model.impl.MemberServiceImpl;
-
+//替InsertMemberServlet.java加註解，註解非常重要
 @WebServlet("/ch01/insertMember.do")
                    
 public class InsertMemberServlet extends HttpServlet {

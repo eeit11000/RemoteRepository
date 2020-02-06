@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import ch01.model.MemberBean;
 import ch01.model.MemberService;
 import ch01.model.impl.MemberServiceImpl;
-
+//替QueryAllMemberServlet.java加註解，註解非常重要
 @WebServlet("/ch01/queryMember.do")
 public class QueryAllMemberServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

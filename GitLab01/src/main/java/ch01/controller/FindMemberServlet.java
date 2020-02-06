@@ -13,7 +13,7 @@ import ch01.model.MemberBean;
 import ch01.model.MemberService;
 import ch01.model.impl.MemberServiceImpl;
 
-
+// 替FindMemberServlet.java加註解，註解非常重要
 @WebServlet("/ch01/findMember.do")
 public class FindMemberServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
